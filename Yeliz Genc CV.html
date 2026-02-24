@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeliz Genc - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header .subtitle {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.95em;
+            margin-top: 15px;
+        }
+
+        .contact-info span {
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .summary {
+            background: #f8f9ff;
+            padding: 25px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 35px;
+            border-radius: 4px;
+        }
+
+        .summary p {
+            color: #555;
+            line-height: 1.7;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.3em;
+            margin-bottom: 8px;
+            margin-top: 20px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: 600;
+            color: #764ba2;
+            font-size: 1.1em;
+        }
+
+        .job-period {
+            color: #666;
+            font-size: 0.95em;
+            font-style: italic;
+        }
+
+        .company {
+            color: #555;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .job-section-title {
+            font-weight: 600;
+            color: #667eea;
+            margin-top: 12px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .skill-item {
+            background: #f8f9ff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: #555;
+            border-left: 3px solid #667eea;
+        }
+
+        .education-item, .cert-item {
+            background: #f8f9ff;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 5px;
+            border-left: 3px solid #764ba2;
+        }
+
+        .education-item strong, .cert-item strong {
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .education-item span, .cert-item span {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .hobby-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.95em;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px;
+            background: #f8f9ff;
+            color: #666;
+            font-style: italic;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .header .subtitle {
+                font-size: 1.1em;
+            }
+            .content {
+                padding: 25px;
+            }
+            .job-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Yeliz Genc</h1>
+            <div class="subtitle">Creative Experience Lead &amp; Design Strategist</div>
+            <div class="contact-info">
+                <span>📍 Waterford, Ireland &amp; London, UK</span>
+                <span>✉️ ygenc.work@gmail.com</span>
+                <span>📱 +353 (0) 83 068 6395</span>
+            </div>
+            <div class="contact-info">
+                <span>🔗 <a href="https://www.linkedin.com/in/yelizsgenc/" style="color: white; text-decoration: underline;">linkedin.com/in/yelizsgenc</a></span>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="summary">
+                <p>Dynamic Creative Experience Lead, Digital Strategist and AI Journalist with over 10 years experience. I harness design expertise to drive profit; delivering innovative, user-centred solutions that align business goals with compelling experiences. I excel at translating complex business needs into workable solutions. Passionate about ideation and impactful projects, I excel as an independent lead managing diverse initiatives that deliver measurable results. Ambitiously committed to organisational growth, I seek to join visionary teams achieving extraordinary outcomes.</p>
+            </div>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Digital Strategy</div>
+                    <div class="skill-item">Graphic Design</div>
+                    <div class="skill-item">Storytelling</div>
+                    <div class="skill-item">Multimedia &amp; Content Creation</div>
+                    <div class="skill-item">Communication Leadership</div>
+                    <div class="skill-item">Social Media Management</div>
+                    <div class="skill-item">Creative Direction</div>
+                    <div class="skill-item">SEO Optimisation</div>
+                    <div class="skill-item">Brand Strategy</div>
+                    <div class="skill-item">Campaign Management</div>
+                    <div class="skill-item">Sales Enablement</div>
+                    <div class="skill-item">Experience Design</div>
+                    <div class="skill-item">User Experience &amp; User Interface Design</div>
+                    <div class="skill-item">Event Planning</div>
+                    <div class="skill-item">Process Optimisation</div>
+                    <div class="skill-item">Project Management</div>
+                </div>
+            </section>
+
+            <section id="software">
+                <h2>Software</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Adobe Creative Suite</div>
+                    <div class="skill-item">Workday</div>
+                    <div class="skill-item">Salesforce</div>
+                    <div class="skill-item">Canva</div>
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">Balsamic</div>
+                    <div class="skill-item">Microsoft Office</div>
+                    <div class="skill-item">InVision</div>
+                    <div class="skill-item">Sketch</div>
+                    <div class="skill-item">Outlook 365 (PowerApps, SharePoint etc.)</div>
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>Relevant Experience</h2>
+
+                <article>
+                    <div class="job-header">
+                        <span class="job-title">Creative Experience Lead</span>
+                        <span class="job-period">December 2024 - Present</span>
+                    </div>
+                    <div class="company">Cpl, Ireland</div>
+                    
+                    <div class="job-section-title">Key Roles:</div>
+                    <ul>
+                        <li>Led the design and delivery of end-to-end experiences for Revenue Operations stakeholders in Group Sales and Marketing, aligning solutions with commercial goals</li>
+                        <li>Served as the principal creative partner to senior leadership and the wider business, setting the visual direction for high-stakes initiatives and communications, to both client audiences and shareholders</li>
+                        <li>Translated complex business needs into clear experience journeys, playbooks and workflows for internal client teams</li>
+                        <li>Partnered with cross-functional teams (sales, marketing, operations, data) to implement and iterate on new processes and tools</li>
+                        <li>Architected experience-led systems and client portals, including a SharePoint hub that mapped all 23+ brands and 40 teams as part of the #OneCpl initiative and Salesforce client-facing live reporting environments that provided real-time visibility of performance and outcomes</li>
+                        <li>Mapped sales processes and produced tailored sales enablement assets and collateral to equip teams for client conversations</li>
+                    </ul>
+                    
+                    <div class="job-section-title">Other:</div>
+                    <ul>
+                        <li>Created clear documentation, assets and communications to support adoption of new ways of working across the organisation</li>
+                        <li>Piloted and evaluated AI-driven tools to streamline creative production, prototyping and content generation</li>
+                        <li>Formalised key processes into SOPs and operational toolkits, reducing ambiguity and improving cross-team consistency</li>
+                        <li>Facilitated discovery sessions and workshops with senior stakeholders to uncover pain points and co-create solutions</li>
+                        <li>Analysed performance and feedback data to continuously optimise service quality and stakeholder satisfaction</li>
+                        <li>Led creative execution for awards, strategic announcements and flagship campaigns, ensuring a premium and cohesive brand presence</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <div class="job-header">
+                        <span class="job-title">Experience Specialist</span>
+                        <span class="job-period">December 2021 - November 2024</span>
+                    </div>
+                    <div class="company">Cpl, Ireland</div>
+                    
+                    <div class="job-section-title">Key Roles:</div>
+                    <ul>
+                        <li>Served as lead designer for the division, amplifying and refining the Talent Evolution Group brand identity</li>
+                        <li>Acted as the communications specialist for the division, managing internal and external messaging across 170+ employees</li>
+                        <li>Supported senior stakeholders on key projects, producing client collateral such as partner introductions, proposals, handbooks and team profiles</li>
+                        <li>Mapped and improved candidate and client journeys, identifying friction points and proposing practical enhancements</li>
+                        <li>Managed feedback channels and implemented improvements to drive engagement, retention and satisfaction</li>
+                        <li>Designed and ran division-wide incentive programmes to boost engagement and performance within Talent Evolution Group</li>
+                        <li>Delivered high-touch support to Talent Evolution Group clients, ensuring a seamless, positive experience throughout the talent lifecycle</li>
+                        <li>Collaborated with recruiters, talent partners and hiring managers to align service delivery with client expectations through various projects</li>
+                    </ul>
+                    
+                    <div class="job-section-title">Other:</div>
+                    <ul>
+                        <li>Produced reports, insights and updates to keep clients informed on progress, issues and outcomes</li>
+                        <li>Co-produced monthly Townhalls with divisional leadership, including custom end-of-session games to enhance participation</li>
+                        <li>Gathered market insights and data to create quarterly business intelligence presentations for client review</li>
+                        <li>Authored SOPs and refined operational processes to standardise delivery and improve efficiency</li>
+                        <li>Planned and organised division events, including the Christmas party, to foster team engagement</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <div class="job-header">
+                        <span class="job-title">Service Delivery Manager</span>
+                        <span class="job-period">April 2022 - August 2022</span>
+                    </div>
+                    <div class="company">Cpl (Onsite Merck), Ireland</div>
+                    
+                    <div class="job-section-title">Key Roles:</div>
+                    <ul>
+                        <li>Managed and coordinated a multidisciplinary team of four, allocating work, providing direction and monitoring performance</li>
+                        <li>Handled HR functions and payroll for all temporary staff onsite with the client, ensuring accuracy and compliance</li>
+                        <li>Owned day-to-day service delivery for assigned functions, ensuring SLAs, quality standards and compliance requirements were consistently met</li>
+                        <li>Acted as the primary point of contact between the business and service teams, managing expectations and escalating issues when needed</li>
+                        <li>Tracked KPIs, prepared status reports and presented insights to stakeholders to support decision-making</li>
+                    </ul>
+                    
+                    <div class="job-section-title">Other:</div>
+                    <ul>
+                        <li>Drove continuous improvement initiatives, identifying process gaps and implementing corrective actions</li>
+                        <li>Provided recruitment support to the team, including sourcing, screening and onboarding processes</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <div class="job-header">
+                        <span class="job-title">Onsite Delivery Specialist</span>
+                        <span class="job-period">May 2019 - December 2021</span>
+                    </div>
+                    <div class="company">Cpl (Onsite GSK), Ireland</div>
+                    
+                    <div class="job-section-title">Key Roles:</div>
+                    <ul>
+                        <li>Provided onsite support to business units, ensuring smooth delivery of agreed services and solutions</li>
+                        <li>Led end-to-end recruitment for junior to senior roles across all business departments, hiring over 260 people in one year (Achieved company record by recruiting 44 people in 5 weeks during COVID-19 ramp-up)</li>
+                        <li>Managed HR and payroll for 70 onsite temporary Cpl staff, ensuring compliance and accuracy</li>
+                        <li>Conducted interviews and provided recommendations to support hiring decisions</li>
+                        <li>Trained hiring managers on recruitment processes, interview techniques and best practices</li>
+                        <li>Mentored employees seeking career progression, delivering interview skills training and career guidance</li>
+                        <li>Liaised with local stakeholders to understand their needs and translate them into clear requests for central teams</li>
+                        <li>Monitored service performance, resolved day-to-day issues and followed up on incidents until closure</li>
+                    </ul>
+                    
+                    <div class="job-section-title">Other:</div>
+                    <ul>
+                        <li>Supported roll-outs of new tools, processes and initiatives</li>
+                        <li>Documented local procedures and feedback to inform future enhancements and best practices</li>
+                        <li>Authored SOPs to standardise onsite processes and operations</li>
+                        <li>Collaborated with HR and software development teams to optimise Workday functionality and smooth implementation</li>
+                        <li>Completed Lean Six Sigma Green Belt project, delivering annual savings of €50,000 through process performance optimisation</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <div class="job-header">
+                        <span class="job-title">Digital Marketing Coordinator</span>
+                        <span class="job-period">December 2017 - December 2018</span>
+                    </div>
+                    <div class="company">Waterford Technologies, Ireland</div>
+                    
+                    <div class="job-section-title">Key Roles:</div>
+                    <ul>
+                        <li>Managed a design team and marketing budgets, ensuring high-quality outputs and maximised ROI</li>
+                        <li>Developed and implemented digital marketing strategies across SEO, content marketing, social media, and paid advertising</li>
+                        <li>Led website redesign initiatives using UX principles and implemented SEO strategies for increased organic traffic</li>
+                        <li>Managed website updates, SEO tasks and analytics tracking to improve traffic and lead generation</li>
+                        <li>Planned and executed digital marketing campaigns across email, social media, web and paid channels</li>
+                        <li>Collaborated with sales and product teams to develop enablement materials and nurture campaigns</li>
+                    </ul>
+                    
+                    <div class="job-section-title">Other:</div>
+                    <ul>
+                        <li>Analysed campaign performance and optimised strategies to improve results, engagement and conversions</li>
+                        <li>Directed content creation including infographics, blogs, and social media posts to support marketing campaigns</li>
+                        <li>Created and edited content (posts, emails, landing pages, graphics) aligned with the brand and product positioning</li>
+                        <li>Supported Software Development team with UX and UI design input and collaboration</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <div class="job-header">
+                        <span class="job-title">Marketing Assistant &amp; Graphic Designer</span>
+                        <span class="job-period">October 2014 - August 2015</span>
+                    </div>
+                    <div class="company">Hilson Moran, UK</div>
+                    
+                    <div class="job-section-title">Key Roles:</div>
+                    <ul>
+                        <li>Designed compelling business proposals and marketing materials aligned with brand guidelines</li>
+                        <li>Produced infographics, branded materials, diagrams and presentations for campaigns, bids and client communications</li>
+                        <li>Managed content updates on the company website, CMS and social media</li>
+                        <li>Organised internal and external events ensuring seamless execution and memorable experiences, including support for the grand opening of 20 Fenchurch's Sky Garden</li>
+                        <li>Liaised with photographers and conducted professional photoshoots for branding initiatives</li>
+                        <li>Coordinated with engineers, project managers and senior marketers to gather information for marketing materials</li>
+                        <li>Supported the marketing team with day-to-day tasks, including basic research and admin</li>
+                        <li>Shadowed senior team members to learn best practices in B2B marketing and design</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <strong>PgC, Leadership: Communication and Digital Transformation (Grade: 1.1)</strong>
+                    <span>September 2024 - May 2025 | Technological University of the Shannon, Ireland</span>
+                </div>
+                <div class="education-item">
+                    <strong>BSc (Hons), Creative Media and Interaction Design (Grade 1.1)</strong>
+                    <span>September 2012 - August 2016 | University of Limerick, Ireland</span>
+                </div>
+            </section>
+
+            <section id="certifications">
+                <h2>Certifications</h2>
+                <div class="cert-item">
+                    <strong>Professional Product Owner</strong>
+                    <span>May 2025 | IBM, Online</span>
+                </div>
+                <div class="cert-item">
+                    <strong>Software Development Lifecycle Specialisation</strong>
+                    <span>May 2025 | University of Minnesota, Online</span>
+                </div>
+                <div class="cert-item">
+                    <strong>QQI Level 5 Lean Six Sigma (Green Belt)</strong>
+                    <span>February 2021 | DCM Learning, Online</span>
+                </div>
+                <div class="cert-item">
+                    <strong>Diploma in Digital Marketing</strong>
+                    <span>February 2018 | Digital Marketing Institute, Online</span>
+                </div>
+                <div class="cert-item">
+                    <strong>Diploma in Project Management</strong>
+                    <span>November 2017 | Alison, Online</span>
+                </div>
+            </section>
+
+            <section id="hobbies">
+                <h2>Hobbies &amp; Interests</h2>
+                <div class="hobbies">
+                    <div class="hobby-item">🐾 Animal Fostering &amp; Volunteering</div>
+                    <div class="hobby-item">🏊 Water Sports &amp; Gym</div>
+                    <div class="hobby-item">👗 Vintage Clothing</div>
+                    <div class="hobby-item">🤖 AI Journalling</div>
+                    <div class="hobby-item">🎨 Creative Arts &amp; Crafts</div>
+                </div>
+            </section>
+        </div>
+
+        <div class="footer">
+            Referees available upon request.
+        </div>
+    </div>
+</body>
+</html>
